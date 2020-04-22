@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo使用教程 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Hexo是一个基于node的静态博客搭建工具。对于常年使用node进行开发的前端工程师来说十分容易上手。 使用Hexo在GitHub Page上搭建个人博客有几个好处：  免费，不用自己去购买服务器； GitHub的服务器稳定； GitHub Page使用简单； 自带代码管理功能。  以下介绍一下搭建的步骤。网上其它搭建的教程其实都说得非常详细，但是其实这些过于详细的教程有时候让我们看了非常头大。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo使用教程">
+<meta property="og:url" content="http://yoursite.com/2019/09/27/Hello-world/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Hexo是一个基于node的静态博客搭建工具。对于常年使用node进行开发的前端工程师来说十分容易上手。 使用Hexo在GitHub Page上搭建个人博客有几个好处：  免费，不用自己去购买服务器； GitHub的服务器稳定； GitHub Page使用简单； 自带代码管理功能。  以下介绍一下搭建的步骤。网上其它搭建的教程其实都说得非常详细，但是其实这些过于详细的教程有时候让我们看了非常头大。">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2020-02-15T14:10:45.100Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo使用教程">
+<meta name="twitter:description" content="Hexo是一个基于node的静态博客搭建工具。对于常年使用node进行开发的前端工程师来说十分容易上手。 使用Hexo在GitHub Page上搭建个人博客有几个好处：  免费，不用自己去购买服务器； GitHub的服务器稳定； GitHub Page使用简单； 自带代码管理功能。  以下介绍一下搭建的步骤。网上其它搭建的教程其实都说得非常详细，但是其实这些过于详细的教程有时候让我们看了非常头大。">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/09/27/Hello-world/" class="article-date">
+  <time datetime="2019-09-27T15:12:34.000Z" itemprop="datePublished">2019-09-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo使用教程
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Hexo是一个基于node的静态博客搭建工具。对于常年使用node进行开发的前端工程师来说十分容易上手。</p>
+<p>使用Hexo在GitHub Page上搭建个人博客有几个好处：</p>
+<ol>
+<li>免费，不用自己去购买服务器；</li>
+<li>GitHub的服务器稳定；</li>
+<li>GitHub Page使用简单；</li>
+<li>自带代码管理功能。</li>
+</ol>
+<p>以下介绍一下搭建的步骤。网上其它搭建的教程其实都说得非常详细，但是其实这些过于详细的教程有时候让我们看了非常头大。想要让Hexo个人博客跑起来，其实简单来说只需要两步：<br>一、创建GitHub Page<br>二、将写好的Hexo博客上传</p>
+<p>详细的步骤如下：</p>
+<p>一、创建GitHub Page</p>
+<ol>
+<li>注册GitHub账号这种基础操作就不说了，然后只需要在个人仓库中创建一个和自己账号名称相同的仓库，便完成了GitHub Page的创建。你可以通过https://&lt;账户名&gt;.github.io进行访问。这个仓库就好像你用express搭建了一个服务器，用express.static把某个文件夹暴露出去一样。你放在该仓库下的所有文件，都可以通过文件名进行访问。因此之后只要将文件部署到该仓库下即可。注意访问的时候需要使用https协议。否则访问不到。（实际上这一点是可以在仓库的setting里面设置的，但我看了一下，我的仓库默认是强制使用https协议，而且无法更改。别人的仓库是不是这样我就不知道了。）</li>
+</ol>
+<p>二、使用Hexo</p>
+<ol start="2">
+<li>接下来就是使用Hexo。先是用npm全局安装hexo的命令行工具。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>我们可以使用以下命令查看版本号，确定安装是否成功。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo version</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><p>接着使用Hexo初始化一个项目。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;项目名称&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>进入文件夹，使用npm安装依赖。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &lt;项目名称&gt;</span><br><span class="line">npm i</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>此时，博客已经创建完成，我们可以使用hexo s启动本地服务器查看效果，会在本地的4000端口运行起来。当然，不执行这个命令也是没有问题的。hexo s实际上就是hexo server的缩写。</p>
+<ol start="5">
+<li>创建了博客，我们怎么开始写文章呢？很简单，也是一条命令的事情：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;&lt;文章标题&gt;&quot;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>执行了这个命令之后，在我们项目中的/source/_posts下便多出来了一个md文件。实际上，这里就是我们所有文章的存储位置。删除文章实际上也只是把该目录下的所有md文件删除即可。而所谓的new命令，实际上就是自动帮你在md文件中写入了创建的日期等格式。</p>
+<ol start="6">
+<li>在写完我们的文章之后，我们需要把我们写好的md文档转换成浏览器能直接展现的html文档。所以我们使用以下这个命令：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>这个命令实际上也是缩写，是</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>的缩写。字面意思就是生成。<br>实际上，这个命令还可以带参数，在官网有详细的文档，如果我们已经设置好了ssh，那么戴上-d参数，就可以实现在生成之后自动上传。也就是这样子写：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+<p>以上就是最简单的能让你把整个博客跑起来的流程。</p>
+<p>当然还有一个问题就是如何完成本地和GitHub之间的连接部署。</p>
+<p>这其实是另外一个问题了。留待我在另外一篇文章中再写。毕竟身为开发我们要懂得降低耦合嘛~（笑）</p>
+<h3 id="结语："><a href="#结语：" class="headerlink" title="结语："></a>结语：</h3><p>虽然现在已经是移动互联网时代，甚至都快要进入物联网时代了，但我认为博客在今日依然有非常重要的意义，特别是在程序员群体当中。博客是非常好的学习的地方，同时也是个人展示自我的地方。像是阮一峰、张鑫旭、汤姆大叔，这些大牛们都有自己的博客，人气也非常高。多写博客，也有助于个人对自己的知识进行梳理，可以当作是一份可以给别人看的笔记，同时也能作为自己面试时一份漂亮的简历。身为程序员，不能只会编码，写文档的能力也需要锻炼，在写博客的过程中，我们无形中也能锻炼到自己的文笔。何乐而不为呢？<br>这样一篇文章实际上也只是起了个头，Hexo已经被众多网友们玩出了花，我现在还没有认真研究过。但实际上Hexo可以加上评论、网站统计、字数统计、主题更换等等功能，可玩性很高。而且Hexo由于是在本地写完之后再部署到线上，因此对数据比较敏感的用户会对此觉得更加安心一些，毕竟源码在自己手里，就相当于多了一份备份。不怕自己辛辛苦苦写完的东西就不见了。而且GitHub上自己的仓库也拥有完全的控制权。哪一天不高兴了，把整个仓库删除了，就什么痕迹都没有了。而且也可以利用git的branch功能把自己的源码也备份上去，从而实现多端写作，不必局限在自己的电脑上。非常方便。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/09/27/Hello-world/" data-id="ck9awhiq50001mwg8k26ppw9c" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/15/面试总结/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          面试总结
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">September 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/04/22/什么是执行上下文/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/15/面试总结/">面试总结</a>
+          </li>
+        
+          <li>
+            <a href="/2019/09/27/Hello-world/">Hexo使用教程</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
